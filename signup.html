@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato Sign up</title>
+  </head>
+  <body>
+    <center>
+      <h1>Sign up</h1>
+      <form action="success.html">
+        <label for="name">Name</label><br /><br />
+        <input
+          type="text"
+          id="name"
+          placeholder="full name"
+          pattern="[A-Za-z]{3,20}"
+          required
+        /><br /><br />
+        <label for="email">Email</label><br /><br />
+        <input
+          type="email"
+          placeholder="abc@gmail.com"
+          id="email"
+        /><br /><br />
+        <label for="phone">Phone Number</label><br /><br />
+        <input
+          type="text"
+          id="phone"
+          pattern="[6-9]{1}[0-9]{9}"
+          required
+        /><br /><br />
+        <button>create account</button><br />
+      </form>
+      <hr />
+      <h4>or</h4>
+      <img src="google.webp" alt="image not found" height="50px" width="50px" />
+      <p><a href="#">continue with google</a></p>
+      <h3>Already have an account? <a href="Login.html">Log in</a></h3>
+    </center>
+  </body>
+</html>
